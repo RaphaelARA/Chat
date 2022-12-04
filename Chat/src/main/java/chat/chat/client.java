@@ -127,7 +127,7 @@ public class client extends javax.swing.JFrame {
             din = new DataInputStream(socket.getInputStream());
             dout = new DataOutputStream(socket.getOutputStream());
             String msgin = "";
-            while(msgin.equals("exit")){
+            while(!msgin.equals("exit")){
                 msgin = din.readUTF();
                 zone_msg.setText(zone_msg.getText().trim()+"\n Serveur: "+msgin); //affichage des messages depuis le côté serveur
             }
