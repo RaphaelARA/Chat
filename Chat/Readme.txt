@@ -1,5 +1,5 @@
 Progression / Problèmes actuels : 
 	- Les messages côté serveur ne s'affichent pas encore, uniquement du côté client...
-	[RESOLU] : détails dans l'historique de modification 
+	[RESOLU : 05/12/22 à 00:33] : détails dans l'historique de modification 
 
 Progression en cours...
