@@ -6,14 +6,14 @@ import java.net.Socket;
 
 public class client extends javax.swing.JFrame {
 
-        // Variables
-        private javax.swing.JTextField ecriture_msg;
-        private javax.swing.JButton envoi;
-        private javax.swing.JScrollPane jScrollPane1;
-        private static javax.swing.JTextArea zone_msg;
-        static Socket socket;
-        static DataInputStream din;
-        static DataOutputStream dout; 
+    // Variables
+    private javax.swing.JTextField ecriture_msg;
+    private javax.swing.JButton envoi;
+    private javax.swing.JScrollPane jScrollPane1;
+    private static javax.swing.JTextArea zone_msg;
+    static Socket socket;
+    static DataInputStream din;
+    static DataOutputStream dout; 
     
     public client() {
         initComponents();
