@@ -1,5 +1,6 @@
 Progression / Problèmes actuels : 
 	- Les messages côté serveur ne s'affichent pas encore, uniquement du côté client...
 	[RESOLU : 05/12/22 à 00:33] : détails dans l'historique de modification 
+	- [En cours] Intégration de KeyListener sur le bouton d'envoi (ENTER)
 
 Progression en cours...
