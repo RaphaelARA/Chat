@@ -123,7 +123,7 @@ public class client extends javax.swing.JFrame {
         });
         
         try{
-            socket = new Socket("127.0.0.1",1201); //adresse ip, local adresse satria anaty même ordinateur no miasa eto
+            socket = new Socket("127.0.0.1",1201); //adresse ip, adresse locale satria anaty même ordinateur no miasa eto
             din = new DataInputStream(socket.getInputStream());
             dout = new DataOutputStream(socket.getOutputStream());
             String msgin = "";
